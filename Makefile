@@ -10,4 +10,4 @@ run:
 	python main.py
 
 clean:
-	del models\sign_model_big.h5 2>NUL || true
+	rm -f models/sign_model_big.h5
